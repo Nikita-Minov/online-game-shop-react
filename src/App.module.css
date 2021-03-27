@@ -1,0 +1,12 @@
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.mainSection {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-color: #202020;
+    grid-template-rows: 1fr 6fr;
+}

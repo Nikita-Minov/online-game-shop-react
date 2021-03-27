@@ -1,8 +1,14 @@
-import './App.css';
+import styles from './App.module.css';
 import React from 'react';
+import Header from './components/Header/Header.jsx';
 
 function App() {
-  return <div className="App"> </div>;
+  return (
+    <section className={styles.mainSection}>
+      <div className={styles.wrapper}>
+        <Header />
+      </div>
+    </section>
+  );
 }
-
 export default App;

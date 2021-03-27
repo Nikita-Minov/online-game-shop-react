@@ -1,0 +1,44 @@
+.header {
+    color: white;
+    display: grid;
+    grid-template-columns: 6fr 2fr 2fr;
+}
+
+.logoLink {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #5458F7;
+    text-shadow: 0 4px 10px rgba(84, 88, 247, 0.25);
+}
+
+.navBar {
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr;
+}
+
+.navBarLink {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #5458F7;
+    text-shadow: 0 4px 10px rgba(84, 88, 247, 0.25);
+    text-decoration: none;
+}
+
+.searchInput {
+    width: 204px;
+    height: 23px;
+    left: 1173px;
+    top: 67px;
+    border-radius: 15px;
+    border-color: transparent;
+    background: url("../../assets/img/search.svg") no-repeat center right;
+    background-color: rgba(84, 88, 247, 0.4);
+    color: #ffffff;
+}
