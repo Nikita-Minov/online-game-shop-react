@@ -1,0 +1,49 @@
+.loginBlock {
+    background: #262626;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginMethod {
+    margin-bottom: 60px;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.loginMethods {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.loginLinkVk {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #5458F7;
+    border-radius: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.loginLinkSteam {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #494949;
+    border-radius: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+}

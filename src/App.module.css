@@ -8,5 +8,12 @@
     width: 100%;
     height: 100vh;
     background-color: #202020;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr 1.5fr 4fr;
+}
+
+.discountAndLogin .wrapper{
+    display: grid;
+    grid-template-columns: 1090px 355px;
+    grid-column-gap: 100px;
+    height: 100%;
 }
