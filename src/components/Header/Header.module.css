@@ -1,7 +1,21 @@
 .header {
     color: white;
-    display: grid;
-    grid-template-columns: 6fr 2fr 2fr;
+    background-color: #202020;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 160px;
+    justify-content: space-between;
+}
+
+.navBarAndSearchWrapper {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
 }
 
 .logoLink {
@@ -16,8 +30,8 @@
 }
 
 .navBar {
-    display: grid;
-    grid-template-columns: 0.4fr 0.4fr;
+    display: flex;
+    align-items: center;
 }
 
 .navBarLink {
@@ -29,6 +43,7 @@
     color: #5458F7;
     text-shadow: 0 4px 10px rgba(84, 88, 247, 0.25);
     text-decoration: none;
+    margin: 20px;
 }
 
 .searchInput {

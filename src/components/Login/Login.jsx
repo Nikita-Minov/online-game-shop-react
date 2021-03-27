@@ -9,7 +9,7 @@ const Login = () => {
       <h1 className={styles.loginMethod}>Авторизоваться через:</h1>
       <div className={styles.loginMethods}>
         <a href="#" className={styles.loginLinkVk}>
-          <img src={vkLogo} alt="vkLogo"/>
+          <img src={vkLogo} alt="vkLogo" />
           Вконтакте
         </a>
         <a href="#" className={styles.loginLinkSteam}>

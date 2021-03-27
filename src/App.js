@@ -6,17 +6,23 @@ import Login from './components/Login/Login.jsx';
 
 function App() {
   return (
-    <section className={styles.mainSection}>
-      <div className={styles.wrapper}>
-        <Header />
-      </div>
-      <div className={styles.discountAndLogin}>
+    <>
+      <Header />
+      <section className={styles.mainSection}>
         <div className={styles.wrapper}>
-          <Discount />
-          <Login />
+          <div className={styles.blocksWrapper}>
+            <div className={styles.gamesWrapper}>
+              <Discount />
+            </div>
+            <div className={styles.sidebarWrapper}>
+              <Login />
+              <Login />
+              <Login />
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 export default App;

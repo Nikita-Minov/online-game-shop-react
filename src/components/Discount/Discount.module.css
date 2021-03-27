@@ -1,9 +1,11 @@
 .discountBlock {
     background: url("../../assets/img/discount.jpg") no-repeat;
     border-radius: 20px;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background-size: cover;
 }
 
 .infoBlock {
