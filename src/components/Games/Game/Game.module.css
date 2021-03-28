@@ -1,0 +1,11 @@
+.game {
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.game img {
+    width: 105%;
+    height: 105%;
+}

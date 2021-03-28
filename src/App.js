@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header/Header.jsx';
 import Discount from './components/Discount/Discount.jsx';
 import Login from './components/Login/Login.jsx';
+import GamesContainer from './components/Games/Games.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <div className={styles.blocksWrapper}>
             <div className={styles.gamesWrapper}>
               <Discount />
+              <GamesContainer />
             </div>
             <div className={styles.sidebarWrapper}>
               <Login />

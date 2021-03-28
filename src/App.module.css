@@ -19,6 +19,17 @@
     grid-column-gap: 45px;
 }
 
+.gamesWrapper {
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+    grid-row-gap: 50px;
+}
+
+.gameWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .sidebarWrapper {
     display: grid;
     grid-template-rows: 220px 320px 300px ;
