@@ -1,0 +1,45 @@
+.groupWrapper {
+    background: #262626;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.groupPhoto {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid rgba(89, 89, 91, 0.89);
+}
+
+.groupName {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.groupDescription {
+    margin-top: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.groupLink {
+    background: #5458F7;
+    border-radius: 40px;
+    padding: 10px 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    text-decoration: none;
+}

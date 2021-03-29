@@ -4,6 +4,8 @@ import Header from './components/Header/Header.jsx';
 import Discount from './components/Discount/Discount.jsx';
 import Login from './components/Login/Login.jsx';
 import GamesContainer from './components/Games/Games.jsx';
+import Group from './components/Group/Group.jsx';
+import UserInfo from './components/UserInfo/UserInfo.jsx';
 
 function App() {
   return (
@@ -18,8 +20,8 @@ function App() {
             </div>
             <div className={styles.sidebarWrapper}>
               <Login />
-              <Login />
-              <Login />
+              <Group />
+              <UserInfo />
             </div>
           </div>
         </div>

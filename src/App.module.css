@@ -15,7 +15,7 @@
 
 .blocksWrapper {
     display: grid;
-    grid-template-columns: 7fr 3fr;
+    grid-template-columns: 7fr 355px;
     grid-column-gap: 45px;
 }
 
