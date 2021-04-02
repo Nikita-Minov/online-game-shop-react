@@ -23,20 +23,8 @@
     "heroku-postbuild": "npm run build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
-    "lint": "eslint -ext .js, .jsx src --fix",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "google"
-    ]
-  },
-  "prettier": {
-    "singleQuote": true,
-    "printWidth": 100
   },
   "browserslist": {
     "production": [
@@ -52,16 +40,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {
-    "eslint": "^7.22.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.23.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.2.1"
-  },
   "author": "",
   "license": "ISC"
 }
