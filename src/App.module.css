@@ -36,3 +36,15 @@
     grid-row-gap: 50px;
 }
 
+@media (max-width: 768px) {
+    .blocksWrapper {
+        grid-template-rows: 8fr 2fr;
+        grid-template-columns: none;
+        justify-content: center;
+    }
+    .sidebarWrapper {
+        width: 80%;
+        justify-content: center;
+
+    }
+}

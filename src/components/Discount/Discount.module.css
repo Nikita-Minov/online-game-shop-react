@@ -63,3 +63,9 @@
     border-color: transparent;
     padding: 10px 20px;
 }
+
+@media (max-width: 768px) {
+    .discountBlock {
+        height: 50%;
+    }
+}
